@@ -15,8 +15,8 @@ public struct GroceryCategoryResponseDTO: Codable {
 	
 	public init( id: UUID, title: String, colorCode: String ) {
 		self.id = id
-		self.colorCode = title
-		self.title = colorCode
+		self.colorCode = colorCode
+		self.title = title
 	}
 	
 } // end struct GroceryCategoryResponseDTO
