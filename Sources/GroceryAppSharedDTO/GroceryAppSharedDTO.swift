@@ -5,6 +5,6 @@ public struct GroceryAppSharedDTO {
     }
 }
 
-protocol GrocerySharedDTO {
-	var title: String { get }
-}
+//protocol GrocerySharedDTO {
+//	var title: String { get }
+//}
