@@ -4,3 +4,7 @@ public struct GroceryAppSharedDTO {
     public init() {
     }
 }
+
+protocol GrocerySharedDTO {
+	var title: String { get }
+}
